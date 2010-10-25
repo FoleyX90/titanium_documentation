@@ -188,6 +188,14 @@
 			"menu":"right"
 		},
 		{
+			"section":"Tutorials",
+			"name":"Titanium tutorials",
+			"source":"tutorials.md",
+			"template":"guide.html",
+			"description": "A listing of Titanium tutorials",
+			"menu":"right"
+		},
+		{
 			"section":"FAQ",
 			"name":"Frequently Asked Questions",
 			"source":"faq.md",
