@@ -17,7 +17,14 @@
         % for g in s['books']:
             <dl>
                 <dt><a href="${g['source'].replace('.md','.html')}">${g['name']}</a></dt>
-                <dd><p>${g['description']}</p></dd>
+                <dd>
+                    <p>${g['description']}</p>
+                    % if g.has_key('inprogress'): 
+                        <div class="note">
+                            <p>This guide is still in progress. You could help by <a href="contribute.html">contributing</a>.</p>
+                        </div>
+                    % endif
+                </dd>
             </dl>
         % endfor
         % endfor

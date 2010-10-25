@@ -7,6 +7,16 @@ This guide covers getting up and running with Appcelerator Titanium&trade;. Afte
 * How to quickly extend your application to add powerful capabilities
 </summary>
 
+# PDF Instructions
+
+You can download a full PDF guide customized to each operating system:
+
+* [Mac OSX](http://assets.appcelerator.com.s3.amazonaws.com/docs/GettingStartedTitanium_Mac.pdf)
+* [Windows](http://assets.appcelerator.com.s3.amazonaws.com/docs/GettingStartedTitanium_Windows.pdf)
+* [Linux](http://assets.appcelerator.com.s3.amazonaws.com/docs/GettingStartedTitanium_Linux.pdf)
+
+
+
 # Downloading Titanium
 
 To download Titanium, navigate to the [Titanium Download Page](http://www.appcelerator.com/download) and download Titanium. Depending on your operating system, this will download the Titanium installer. 
@@ -42,7 +52,7 @@ We've tested Titanium mobile development with Ubuntu 9.10 (Karmic Koala).
 You can try using other Linux distributions to develop with Titanium, but this Ubuntu distribution is the one that we test with and support. If you have trouble or success with another distribution, please let us know.
 
 
-## Installing Titanium
+# Installing Titanium
 
 Appcelerator's Developer Web site contains information you'll need to configure your development system, and then begin development using the sample programs. Using your Web browser, navigate to [http://developer.appcelerator.com/get_started](http://developer.appcelerator.com/get_started).
 
@@ -56,55 +66,4 @@ In this section, you'll install the components on the right that you'll use to d
 
 There are several API revision levels, and different versions of the SDK's that we'll be navigating through in this section. You'll want to follow these installation steps in order.
 
-
-### Mac OSX
-
-This section is for development using a Macintosh. You can also develop using Windows or Linux, which are covered in related sections.
-
-For downloaded files, the filenames given here are current as of when we created this guide. In general, it should be ok to use a later update of the listed files.
-
-#### Install Titanium and mobile SDK's (Mac OS X)
-
-#### Install iOS (iPhone and iPad) SDK
-
-There are several steps along the way to installing the iOS SDK. To get started, go to:
-
-[http://developer.apple.com/](http://developer.apple.com/)
-
-Here are the steps you'll need to complete.
-
-* Register as an Apple Developer, if you are not one already
-* Agree to the Apple iPhone developer license
-* Download and install XCode with the iOS SDK
-
-Once you've agreed to the iOS developer license, there is an approval process before you go to the next step. This approval generally takes only a few hours for individual developers, but can sometimes take several days for a corporate account. Additionally, you'll need a paid membership in the iPhone Developer Program when it comes time for you to publish your app.
-The above steps are done with Apple through Apple's Web site, and don't involve Appcelerator or Titanium.
-
-It's important to allow the SDK to install in the default location on your Mac. This is inside the "Developer" directory at the top level of your startup drive. (This will be a sibling directory to "Users".) Once installed, it's important to avoid moving that directory – XCode will expect to see the various components in their default locations. The SDK will take up about 6 GB, so be sure you have enough space on your startup drive for it.
-
-
-#### Install Android SDK
-
-There is no login or approval process for Android development. However, there are numerous steps that you have to follow to download and install the Android SDK, and then register it for use in Titanium. In preparation, it's helpful to read about the Android SDK here:
-[http://developer.android.com/sdk/installing.html](http://developer.android.com/sdk/installing.html).
-
-When you're ready, go to the [Android SDK download page](http://developer.android.com/sdk/index.html).
-
-In the following steps, we'll show you how to: 
-
-* Download the Android SDK
-* Install the Android SDK to the root drive
-* Start the Android SDK and AVD Manager GUI 
-* Download and install the proper Android APIs
-
-For development on the Mac, download android-sdk_r06-mac_86.zip, which should end up being automatically unzipped into your Downloads folder. The Android SDK folder will be called "android-sdk-mac_86", and will take up about 1 GB.
-
-Using the Finder, drag the "android-sdk-mac_86" from your Downloads directory to your root (startup) drive – this is often called "Macintosh HD". Rename the Android SDK folder to "android-sdk". Our examples expect this configuration, but you can actually put the Android SDK folder anywhere you like.
-
-Although not essential, you may want to use the Terminal application on your Mac to work with the Android tools. Here are the commands in Terminal that you could use to start up the Android SDK and AVD Manager GUI.
-
-<code class="bash">
-    cd /android-sdk
-    ./tools/android
-</code>
 

@@ -262,11 +262,9 @@ def main(args):
 				print "Couldn't find source: %s" % source 
 				print "Generating an empty file at %s" % source
 				s = codecs.open(source,'w',encoding='utf-8')
-				X="""
-				<summary>
-				    This page has not yet been developed.  Help [[contribute]] by writing documentation.
-				</summary>
-				"""
+				X="""<summary>
+	This page has not yet been developed.  Help [[contribute]] by writing documentation.
+</summary>"""
 				s.write(X)
 				s.close()
 			generate_template(source,guide,language,language_code,language_dir,languages,sections)

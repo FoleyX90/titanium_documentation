@@ -36,7 +36,8 @@
 			"source":"app_structure.md",
 			"template":"guide.html",
 			"description": "An explanation of the project structure of a Appcelerator Titanium application.",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Architecture",
@@ -52,7 +53,8 @@
 			"source":"local_data.md",
 			"template":"guide.html",
 			"description": "Working with Local Data such as files, databases and properties.",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Architecture",
@@ -60,15 +62,26 @@
 			"source":"remote_data.md",
 			"template":"guide.html",
 			"description": "Working with Remote Data such as web services, Facebook and YQL.",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Architecture",
-			"name":"Using multimedia in your Application",
+			"name":"Using multimedia capabilities",
 			"source":"media.md",
 			"template":"guide.html",
 			"description": "Understanding how to use multimedia such as video and audio in your Titanium application.",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
+		},
+		{
+			"section":"Architecture",
+			"name":"Using Location services",
+			"source":"location.md",
+			"template":"guide.html",
+			"description": "Understanding how to use location services such as GPS in your Titanium application.",
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Architecture",
@@ -76,7 +89,8 @@
 			"source":"security.md",
 			"template":"guide.html",
 			"description": "Understanding Application Security and Titanium.",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Architecture",
@@ -84,7 +98,8 @@
 			"source":"internationalization.md",
 			"template":"guide.html",
 			"description": "Understanding how to make your Titanium application available to other languages and locales.",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Architecture",
@@ -92,7 +107,8 @@
 			"source":"performance.md",
 			"template":"guide.html",
 			"description": "Understanding how to optimize your Titanium application to make it run fast, use less memory and perform well.",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Tools",
@@ -100,7 +116,8 @@
 			"source":"tool_titanium_developer.md",
 			"template":"guide.html",
 			"description": "Understanding how to use Titanium Developer.",
-			"menu":"right"
+			"menu":"right",
+			"inprogress":true
 		},
 		{
 			"section":"Tools",
@@ -108,7 +125,8 @@
 			"source":"tool_titanium.md",
 			"template":"guide.html",
 			"description": "Understanding how to use the Titanium command line tool.",
-			"menu":"right"
+			"menu":"right",
+			"inprogress":true
 		},
 		{
 			"section":"Tools",
@@ -116,7 +134,8 @@
 			"source":"titanium_geo.md",
 			"template":"guide.html",
 			"description": "Understanding how to use the Titanium+Geo product.",
-			"menu":"right"
+			"menu":"right",
+			"inprogress":true
 		},
 		{
 			"section":"Tools",
@@ -124,7 +143,8 @@
 			"source":"testing.md",
 			"template":"guide.html",
 			"description": "Understanding how to test your Titanium applications.",
-			"menu":"right"
+			"menu":"right",
+			"inprogress":true
 		},
 		{
 			"section":"FAQ",
@@ -140,7 +160,8 @@
 			"source":"android.md",
 			"template":"guide.html",
 			"description": "Understanding Android specific APIs, usages and differences.",
-			"menu":"right"
+			"menu":"right",
+			"inprogress":true
 		},
 		{
 			"section":"Platform Specific",
@@ -148,7 +169,8 @@
 			"source":"ios.md",
 			"template":"guide.html",
 			"description": "Understanding iOS specific APIs, usages and differences.",
-			"menu":"right"
+			"menu":"right",
+			"inprogress":true
 		},
 		{
 			"section":"Platform Specific",
@@ -156,7 +178,8 @@
 			"source":"blackberry.md",
 			"template":"guide.html",
 			"description": "Understanding Blackberry specific APIs, usages and differences.",
-			"menu":"right"
+			"menu":"right",
+			"inprogress":true
 		},
 		{
 			"section":"Extending Titanium",
@@ -164,7 +187,8 @@
 			"source":"module_ios.md",
 			"template":"guide.html",
 			"description": "Extending Titanium with the iOS Module Developer Guide",
-			"menu":"left"
+			"menu":"left",
+			"inprogress":true
 		},
 		{
 			"section":"Extending Titanium",

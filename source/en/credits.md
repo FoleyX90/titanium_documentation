@@ -59,4 +59,4 @@ We'd like to recognize the following third-party open source contributions we'd 
 
 # Others
 
-If we've forgotten you or your organization from the list, it's simply inadvertent. Please let us know ASAP so we can add you by [emailing us](mailto:info@appcelerator.com).
+If we've forgotten you or your organization from the list, it's inadvertent. Please let us know ASAP so we can add you by [emailing us](mailto:info@appcelerator.com).
