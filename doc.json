@@ -172,6 +172,22 @@
 			"inprogress":true
 		},
 		{
+			"section":"Tools",
+			"name":"Continuous Builds",
+			"source":"continuous_builds.md",
+			"template":"guide.html",
+			"description": "Living on the edge: using Titanium continuous builds.",
+			"menu":"right"
+		},
+		{
+			"section":"Tools",
+			"name":"Third-party tools",
+			"source":"tool_thirdparty.md",
+			"template":"guide.html",
+			"description": "A listing of Titanium third-party tools.",
+			"menu":"right"
+		},
+		{
 			"section":"FAQ",
 			"name":"Frequently Asked Questions",
 			"source":"faq.md",
