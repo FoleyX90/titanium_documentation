@@ -4,6 +4,14 @@
 <div class="wrapper">
   <h2>${title}</h2>
   <p>${summary}</p>
+  <div id="subCol">
+      <h3 class="chapter"><img src="../assets/images/chapters_icon.gif" alt="" />Chapters</h3>
+          <ol class="chapters">
+                % for s in sections:
+                <li><a href="#${s['title'].replace(' ','_')}">${s['title']}</a></li>
+                % endfor
+          </ol>
+  </div>
 </div>
 </div>
 
@@ -13,7 +21,7 @@
       ${body}
       
         % for s in sections:
-            <h3>${s['title']}</h3>
+            <h3 id="${s['title'].replace(' ','_')}">${s['title']}</h3>
         % for g in s['books']:
             <dl>
                 <dt><a href="${g['source'].replace('.md','.html')}">${g['name']}</a></dt>
@@ -21,7 +29,7 @@
                     <p>${g['description']}</p>
                     % if g.has_key('inprogress'): 
                         <div class="note">
-                            <p>This guide is still in progress. You could help by <a href="contribute.html">contributing</a>.</p>
+                            <p>This guide is still in progress. You could help by <a href="contribute.html#how_to_contribute_to_documentation">contributing</a>.</p>
                         </div>
                     % endif
                 </dd>

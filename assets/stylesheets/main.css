@@ -126,7 +126,8 @@ body {
 	width: 17em;
 	font-size: 0.9285em;
 	line-height: 1.3846em;
-	}
+	border:1px solid #ccc;
+}
 
 #extraCol {display: none;}
 

@@ -36,8 +36,7 @@
 			"source":"app_structure.md",
 			"template":"guide.html",
 			"description": "An explanation of the project structure of a Appcelerator Titanium application.",
-			"menu":"left",
-			"inprogress":true
+			"menu":"left"
 		},
 		{
 			"section":"Architecture",
@@ -80,6 +79,24 @@
 			"source":"location.md",
 			"template":"guide.html",
 			"description": "Understanding how to use location services such as GPS in your Titanium application.",
+			"menu":"left",
+			"inprogress":true
+		},
+		{
+			"section":"Architecture",
+			"name":"Using TableViews",
+			"source":"tableviews.md",
+			"template":"guide.html",
+			"description": "Understanding how to use TableViews in your Titanium application.",
+			"menu":"left",
+			"inprogress":true
+		},
+		{
+			"section":"Architecture",
+			"name":"Using HTML5 webviews",
+			"source":"webviews.md",
+			"template":"guide.html",
+			"description": "Understanding how to use HTML5 webviews in your Titanium application.",
 			"menu":"left",
 			"inprogress":true
 		},
@@ -187,8 +204,7 @@
 			"source":"module_ios.md",
 			"template":"guide.html",
 			"description": "Extending Titanium with the iOS Module Developer Guide",
-			"menu":"left",
-			"inprogress":true
+			"menu":"left"
 		},
 		{
 			"section":"Extending Titanium",
