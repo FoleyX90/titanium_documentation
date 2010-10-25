@@ -48,7 +48,7 @@
 		},
 		{
 			"section":"Architecture",
-			"name":"Designing Titanium User Interfaces",
+			"name":"Designing the User Interface",
 			"source":"ui_design.md",
 			"template":"guide.html",
 			"description": "Designing Titanium User Interfaces.",
