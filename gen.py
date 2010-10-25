@@ -144,7 +144,7 @@ def fix_codeblock(line):
 	endi = line.find("</code></pre>",idx2)
 	before = line[0:idx]
 	after = line[endi+13:]
-	html = '<div class="code_container">' + line[idx+5:idx2] + line[idx2:idx2+1] + '\n' + line[idx2+2:endi] + '</code></div>\n'
+	html = '<div class="code_container">' + line[idx+5:idx2] + line[idx2:idx2+1] + '\n' + line[idx2+1:endi] + '</code></div>\n'
 	return fix_codeblock(before + html + after)
 
 def generate_template(source,guide,language,language_code,language_dir,languages,sections):	
