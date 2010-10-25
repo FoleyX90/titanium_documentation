@@ -23,6 +23,14 @@
 			"menu":"left"
 		},
 		{
+			"section":"Start Here",
+			"name":"Getting Started with Kitchen Sink",
+			"source":"kitchensink.md",
+			"template":"guide.html",
+			"description": "Getting started with the Kitchen Sink über demo application.",
+			"menu":"left"
+		},
+		{
 			"section":"Architecture",
 			"name":"The Appcelerator Architecture",
 			"source":"architecture.md",
