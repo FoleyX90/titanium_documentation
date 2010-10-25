@@ -1,0 +1,85 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="${language_code}" lang="${language_code}">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="${description}" />
+
+<title>Appcelerator Documentation Guides : ${title}</title>
+
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/style.css" />
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/syntax.css" />
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/print.css" media="print" />
+
+<script type="text/javascript" src="../assets/javascripts/guides.js"></script>
+<script type="text/javascript" src="../assets/javascripts/code_highlighter.js"></script>
+<script type="text/javascript" src="../assets/javascripts/highlighters.js"></script>
+
+</head>
+<body class="guide">
+<div id="topNav">
+  <div class="wrapper">
+      <div id="languages">
+      <% import os %>
+      % for l in languages:
+        % if language_code == l['code']:
+            ${l['title']}
+        % else:
+        % if os.path.exists(os.path.join(template_dir,'source',l['directory'])):
+            <a href="/${l['code']}">${l['title']}</a>
+        % endif
+        % endif
+      % endfor
+      </div>
+      <div class="clearfix"></div>
+  </div>
+</div>
+  <div id="header">
+    <div class="wrapper clearfix">
+      <h1><a href="index.html" title="Return to home page">Appcelerator Documentation</a></h1>
+      <p class="hide"><a href="#mainCol">Skip navigation</a>.</p>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="index"><a href="index.html" onclick="guideMenu(); return false;" id="guidesMenu">Guides Index</a>
+          <div id="guides" class="clearfix" style="display: none;">
+            <hr />
+            <%
+                left_sections = {}
+                right_sections = {}
+            %>
+            <dl class="L">
+                % for s in sections:
+                % for g in s['books']:
+                % if g['menu']=='left':
+                % if not left_sections.has_key(s['title']):
+                    <dt>${s['title']}</dt>
+                <% left_sections[s['title']]=True %>     
+                % endif    
+                    <dd><a href="${g['source'].replace('.md','.html')}">${g['name']}</a></dd>
+                % endif
+                % endfor
+                % endfor
+            </dl>
+            <dl class="R">
+                % for s in sections:
+                % for g in s['books']:
+                % if g['menu']=='right':
+                % if not right_sections.has_key(s['title']):
+                    <dt>${s['title']}</dt>
+                <% right_sections[s['title']]=True %>     
+                % endif    
+                    <dd><a href="${g['source'].replace('.md','.html')}">${g['name']}</a></dd>
+                % endif
+                % endfor
+                % endfor
+            </dl>
+          </div>
+        </li>
+        <li><a href="contribute.html">Contribute</a></li>
+        <li><a href="credits.html">Credits</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr class="hide" />

@@ -1,0 +1,199 @@
+{
+	"languages":
+	[
+		{
+			"directory":"en",
+			"title":"English",
+			"code":"en"
+		},
+		{
+			"directory":"jp",
+			"title":"日本",
+			"code":"jp"
+		}
+	],
+	"guides":
+	[
+		{
+			"section":"Start Here",
+			"name":"Getting Started with Appcelerator",
+			"source":"getting_started.md",
+			"template":"guide.html",
+			"description": "Everything you need to know to download, install and create your first application with Titanium.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"The Appcelerator Architecture",
+			"source":"architecture.md",
+			"template":"guide.html",
+			"description": "The architecture overview of the Appcelerator Titanium platform and design concepts of a Titanium application.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"The Application Project Structure",
+			"source":"app_structure.md",
+			"template":"guide.html",
+			"description": "An explanation of the project structure of a Appcelerator Titanium application.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"Designing Titanium User Interfaces",
+			"source":"ui_design.md",
+			"template":"guide.html",
+			"description": "Designing Titanium User Interfaces.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"Working with Local Data",
+			"source":"local_data.md",
+			"template":"guide.html",
+			"description": "Working with Local Data such as files, databases and properties.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"Working with Remote Data",
+			"source":"remote_data.md",
+			"template":"guide.html",
+			"description": "Working with Remote Data such as web services, Facebook and YQL.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"Using multimedia in your Application",
+			"source":"media.md",
+			"template":"guide.html",
+			"description": "Understanding how to use multimedia such as video and audio in your Titanium application.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"Understanding Application Security",
+			"source":"security.md",
+			"template":"guide.html",
+			"description": "Understanding Application Security and Titanium.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"How to Internationalize your Application",
+			"source":"internationalization.md",
+			"template":"guide.html",
+			"description": "Understanding how to make your Titanium application available to other languages and locales.",
+			"menu":"left"
+		},
+		{
+			"section":"Architecture",
+			"name":"Application Performance Optimizations",
+			"source":"performance.md",
+			"template":"guide.html",
+			"description": "Understanding how to optimize your Titanium application to make it run fast, use less memory and perform well.",
+			"menu":"left"
+		},
+		{
+			"section":"Tools",
+			"name":"Titanium Developer",
+			"source":"tool_titanium_developer.md",
+			"template":"guide.html",
+			"description": "Understanding how to use Titanium Developer.",
+			"menu":"right"
+		},
+		{
+			"section":"Tools",
+			"name":"Titanium Command-line tool",
+			"source":"tool_titanium.md",
+			"template":"guide.html",
+			"description": "Understanding how to use the Titanium command line tool.",
+			"menu":"right"
+		},
+		{
+			"section":"Tools",
+			"name":"Titanium+Geo",
+			"source":"titanium_geo.md",
+			"template":"guide.html",
+			"description": "Understanding how to use the Titanium+Geo product.",
+			"menu":"right"
+		},
+		{
+			"section":"Tools",
+			"name":"Testing your Applications",
+			"source":"testing.md",
+			"template":"guide.html",
+			"description": "Understanding how to test your Titanium applications.",
+			"menu":"right"
+		},
+		{
+			"section":"FAQ",
+			"name":"Frequently Asked Questions",
+			"source":"faq.md",
+			"template":"guide.html",
+			"description": "Answers to questions that are frequently asked.",
+			"menu":"right"
+		},
+		{
+			"section":"Platform Specific",
+			"name":"Android specific documentation",
+			"source":"android.md",
+			"template":"guide.html",
+			"description": "Understanding Android specific APIs, usages and differences.",
+			"menu":"right"
+		},
+		{
+			"section":"Platform Specific",
+			"name":"iOS specific documentation",
+			"source":"ios.md",
+			"template":"guide.html",
+			"description": "Understanding iOS specific APIs, usages and differences.",
+			"menu":"right"
+		},
+		{
+			"section":"Platform Specific",
+			"name":"Blackberry specific documentation",
+			"source":"blackberry.md",
+			"template":"guide.html",
+			"description": "Understanding Blackberry specific APIs, usages and differences.",
+			"menu":"right"
+		},
+		{
+			"section":"Extending Titanium",
+			"name":"iOS Module Developer Guide",
+			"source":"module_ios.md",
+			"template":"guide.html",
+			"description": "Extending Titanium with the iOS Module Developer Guide",
+			"menu":"left"
+		},
+		{
+			"section":"Extending Titanium",
+			"name":"Android Module Developer Guide",
+			"source":"module_android.md",
+			"template":"guide.html",
+			"description": "Extending Titanium with the Android Module Developer Guide",
+			"menu":"left"
+		}
+	],
+	"statics":
+	[
+		{
+			"name":"Appcelerator Documentation Guides",
+			"source":"index.md",
+			"template":"index.html",
+			"description":"Appcelerator Documentation Guides"
+		},
+		{
+			"name":"Contribute to Appcelerator",
+			"source":"contribute.md",
+			"template":"guide.html",
+			"description":"Help make the Appcelerator Platform possible by contributing."
+		},
+		{
+			"name":"Appcelerator Credits",
+			"source":"credits.md",
+			"template":"guide.html",
+			"description":"The list of contributes who have helped to make the Appcelerator Platform possible."
+		}
+	]
+}

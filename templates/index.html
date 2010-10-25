@@ -1,0 +1,29 @@
+<%include file="header.html"/>
+
+<div id="feature">
+<div class="wrapper">
+  <h2>${title}</h2>
+  <p>${summary}</p>
+</div>
+</div>
+
+<div id="container">
+<div class="wrapper">
+  <div id="mainCol">
+      ${body}
+      
+        % for s in sections:
+            <h3>${s['title']}</h3>
+        % for g in s['books']:
+            <dl>
+                <dt><a href="${g['source'].replace('.md','.html')}">${g['name']}</a></dt>
+                <dd><p>${g['description']}</p></dd>
+            </dl>
+        % endfor
+        % endfor
+
+  </div>
+</div>
+</div>
+
+<%include file="footer.html"/>
