@@ -1,0 +1,87 @@
+Working outline for Titanium Documentation / Rev 1
+===================================================
+
+Writing applications in JavaScript
+    - JavaScript for beginner resources
+    - Titanium JS built-in functionality (timers, etc)
+    - Basic best practices, recommendations for Titanium based JS
+    - Titanium.include
+    - Extending Titanium with your own meta framework (links to examples, etc)
+
+Working with Local Data
+    - storage in SQLite
+    - storage in Properties
+    - filesystem
+    
+Working with Remote Data
+    - web services (include XML, SOAP, JSON, Authentication)
+    - remote fetch and storage, local cache from file
+    - push notifications
+
+User Interface Design
+    - transition effects
+    - animations
+    - designer techniques
+    - advanced layout
+    - tool best practices (photoshop, etc), templates, etc
+    
+Using Multimedia Capabilities
+    - video
+    - audio (stream, local play)
+
+Using Location Services
+    - geolocation
+    - forward
+    - reverse
+    - integration of native maps
+    - map routing
+
+Using Table Views
+
+Using HTML5 webviews
+
+Understanding Application Security
+
+How to Internationalize your Application (1.5)
+
+Application Performance Optimizations
+    - table views
+    - caching techniques
+
+Titanium Developer
+    - explain layout tool, etc.
+
+Titanium Command-line tool
+    - explain commands
+
+Testing your applications
+    - how to test
+    - using command line
+    
+Distributing your App to the App Store
+    (we don't need to document the full process, just provide pointers and any tips, differences, etc)
+    - iOS Marketplace 
+    - Android Marketplace
+
+Designing for cross-platform 
+    - impacts, decisions, when and how
+    - how to structure your app for cross-platform
+    - what's different between platforms
+    - HTML5 vs native UI
+
+Building from source code
+    (some of this is covered in contribute too)
+    - how to build from source code
+    - how to report issues/ pull requests, etc.
+    - contribution (CLA link, etc)
+
+
+Android specific Documentation
+    - Android specific APIs, features, capabilities, differences
+
+iOS Specific documentation
+    - iOS specific APIs, features, capabilities, differences
+
+Blackberry specific documentation
+    - Blackberry specific APIs, features, capabilities, differences
+
