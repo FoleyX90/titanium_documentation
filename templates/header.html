@@ -40,7 +40,7 @@
     <div class="wrapper clearfix">
       <h1><a href="index.html" title="Return to home page">Appcelerator Documentation</a></h1>
       <p class="hide"><a href="#mainCol">Skip navigation</a>.</p>
-      <ul class="nav">
+      <ul class="nav" style="margin-top:0">
         <li><a href="index.html">Home</a></li>
         <li class="index"><a href="index.html" onclick="guideMenu(); return false;" id="guidesMenu">Guides Index</a>
           <div id="guides" class="clearfix" style="display: none;">
@@ -80,6 +80,15 @@
         <li><a href="contribute.html">Contribute</a></li>
         <li><a href="credits.html">Credits</a></li>
       </ul>
+      % if globals.has_key('website') and globals['website']==1:
+      <br/>        
+      <div style="margin-top:19px;">          
+          <div style="float:right">
+              <input type="type" value="" id="search" style="width:330px;font-size:16px"/> 
+              <input type="submit" value="Search" style="font-size:16px"/>
+          </div>
+      </div>
+      % endif
     </div>
   </div>
   <hr class="hide" />
