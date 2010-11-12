@@ -248,7 +248,7 @@ def get_language(lang):
 		language_code = language_entry['code']
 		if language_code == lang:
 			return language,language_dir,language_code
-	print "Couldn't find language: %s" % lang
+	print "Couldn't find language: %s" % lang.encode('utf-8')
 	sys.exit(1)
 	
 def main(args):
@@ -329,7 +329,7 @@ def main(args):
 		language_code = language_entry['code']
 		
 		if not os.path.exists(os.path.join(template_dir,'source',language_dir)):
-			print "Skipping generation of language: %s" % language
+			print "Skipping generation of language: %s" % language.encode('utf-8')
 			print "No language directory found at: %s" % os.path.join(template_dir,'source',language_dir)
 			continue
 
