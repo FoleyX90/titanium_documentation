@@ -36,4 +36,9 @@ $(function(){
         });
         return false;
     });
+
+	$('#search_btn').click(function(){
+		var q = $('#search').val();
+		document.location.href = baseurl + '/search?q='+q;
+	});
 });
