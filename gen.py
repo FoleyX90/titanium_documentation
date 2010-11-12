@@ -36,9 +36,7 @@ template_dir = os.path.abspath(os.path.dirname(sys._getframe(0).f_code.co_filena
 root_dir = os.path.join(template_dir,'../')
 doc_json_file = os.path.join(template_dir,'doc.json')
 doc_json = json.loads(codecs.open(doc_json_file,encoding='utf-8').read())
-out_dir = os.path.join(template_dir,'output')
-if not os.path.exists(out_dir):
-	os.makedirs(out_dir)
+out_dir = None
 templates_dir = os.path.join(template_dir,'templates')
 guides = doc_json['guides']
 statics = doc_json['statics']
@@ -254,10 +252,8 @@ def get_language(lang):
 	sys.exit(1)
 	
 def main(args):
-	if os.path.exists(os.path.join(out_dir,'assets')):
-		shutil.rmtree(os.path.join(out_dir,'assets'))
-	shutil.copytree(os.path.join(template_dir,'assets'),os.path.join(out_dir,'assets'))
 	
+	global out_dir
 	
 	# add any key=value pair as a global so that they can be picked up in template
 	for arg in args:
@@ -270,6 +266,14 @@ def main(args):
 	if globals.has_key('lang'):
 		lang = globals['lang']
 	language, language_code, language_dir = get_language(lang)
+	
+	if globals.has_key('outdir'):
+		out_dir = os.path.abspath(globals['outdir'])
+	else:
+		out_dir = os.path.join(template_dir,'output')
+
+	if not os.path.exists(out_dir):
+		os.makedirs(out_dir)
 
 	if globals.has_key('guide'):
 		found = False
@@ -299,6 +303,13 @@ def main(args):
 			generate_static(entry,language,language_code,language_dir)
 			sys.exit(0)
 
+	# copy assets
+	if out_dir!=template_dir:
+		if os.path.exists(os.path.join(out_dir,'assets')):
+			shutil.rmtree(os.path.join(out_dir,'assets'))
+		shutil.copytree(os.path.join(template_dir,'assets'),os.path.join(out_dir,'assets'))
+
+	# generate all guides and statics
 	for entry in guides:
 		section = entry['section']
 		
