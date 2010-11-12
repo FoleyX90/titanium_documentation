@@ -26,6 +26,11 @@
         font-family: Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
         background-color:#ffffee;
     }
+    #commit_msg {
+        width:900px;
+        font-size:18px;
+        font-family: Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    }
 </style>
 <script>
     var page = "${source}";
@@ -36,8 +41,9 @@
         
         function save() {
             var source = $('#edit_source').val();
+            var commit = $('#commit_msg').val();
             $.ajax({
-                url:baseurl+'/save?page='+page+'&lang='+lang,
+                url:baseurl+'/save?page='+page+'&lang='+lang+'&commit='+commit,
                 data:source,
                 type:'POST',
                 success:function(msg){
@@ -60,7 +66,8 @@
                 data:{'page':page,'lang':lang},
                 success:function(msg){
                     html = "<textarea id='edit_source'>"+msg+"</textarea>";
-                    html+= "<button id='preview'>Preview Changes</button> <button id='save'>Save Changes</button>";
+                    html+= "<div>Commit message:</div><div><input type='text' value='' id='commit_msg'/></div>";
+                    html+= "<div style='margin-top:10px;'><button id='preview'>Preview Changes</button> <button id='save'>Save Changes</button></div>";
                     $('#loading').html(html);
                     $('#preview').click(preview);
                     $('#save').click(save);
