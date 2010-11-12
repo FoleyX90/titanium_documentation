@@ -10,6 +10,10 @@
     You should be familiar with the basic [Titanium architecture](architecture.html) before continuing with this guide.
 </note>
 
+# Test
+
+this is an edit test..
+
 # Positioning and Coordinate system
 
 Titanium uses a left, top coordinate system.  The 0,0 position is the top, left position of the View or Window.  In Titanium, you can also use negative coordinates.  For example, the following View as a child of the main Window would put the view offscreen:
