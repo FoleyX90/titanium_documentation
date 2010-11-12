@@ -472,3 +472,17 @@ div.important p, div.caution p, div.warning p, div.note p, div.info p {
 #editbar a {
 	color:#aaa;
 }
+
+#edit_source {
+    width:900px;
+    height:320px;
+    font-size:18px;
+    font-family: Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    background-color:#ffffee;
+}
+
+#commit_msg {
+    width:900px;
+    font-size:18px;
+    font-family: Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+}
