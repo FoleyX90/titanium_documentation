@@ -14,6 +14,18 @@ LAST MODIFIED: ---
 	!	 - Exception
 ==========================================
 
+Guide Skeleton
+	- Guide Scope
+	- Prerequisite Capability/Guides
+	- Guide Walkthrough
+		- Source
+			- Ballon/branch platform-specific source.
+		- Assets (Screenshots/Video)
+	- Guide Summary
+	- Related/Additional Guides/Resources
+
+==========================================
+
 Writing Applications in JavaScript [#*]
 	- JS Overview and Additional Resources
 		- General Overview of JavaScript
@@ -27,7 +39,6 @@ Writing Applications in JavaScript [#*]
 		- JavaScript Patterns
 		- Understanding 'Event-Driven'
 			- To Listen or Not to Listen
-		- Titanium Factories (UI, etc) [!]
 		- Managing Assets and Organizing Source with Titanium.include
 			- See more on general, abstract development best practices. [!]
 	- CommonJS
@@ -112,6 +123,8 @@ Designing for cross-platform
 	- how to structure your app for cross-platform
 	- what's different between platforms
 	- HTML5 vs native UI
+	
+Building Titanium Factories
 
 Building from source code
 	(some of this is covered in contribute too)
