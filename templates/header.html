@@ -58,7 +58,7 @@
         
         $('#edit').click(function(){
             var html = '<h1>'+lang+'/'+page+'</h1>';
-            html+='<div id="loading"><p>Loading...one moment</p></div>';
+            html+='<div id="loading"><p style="margin-top:30px;">Loading...one moment</p></div>';
             $('#mainCol').html(html);
             $('#feature').hide();
             $.ajax({
@@ -85,7 +85,8 @@
   <div class="wrapper">
       % if globals.has_key('website'):
         <div id="editbar">
-          <a href="" id="edit">Edit</a>
+          <a href="" id="edit">Edit</a> | 
+          <a href="http://github.com/api/v2/html/commits/list/appcelerator/titanium_documentation/master/source/${lang}/${source}">History</a>
         </div>
       % endif
       <div id="languages">
