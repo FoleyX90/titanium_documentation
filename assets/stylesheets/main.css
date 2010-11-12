@@ -469,3 +469,6 @@ div.important p, div.caution p, div.warning p, div.note p, div.info p {
 	font-size:10px;
 }
 
+#editbar a {
+	color:#aaa;
+}

@@ -52,8 +52,8 @@
             });
         }
         
-        function preview () {
-            
+        function cancel () {
+            document.location.reload();
         }
         
         $('#edit').click(function(){
@@ -67,9 +67,9 @@
                 success:function(msg){
                     html = "<textarea id='edit_source'>"+msg+"</textarea>";
                     html+= "<div>Commit message:</div><div><input type='text' value='' id='commit_msg'/></div>";
-                    html+= "<div style='margin-top:10px;'><button id='preview'>Preview Changes</button> <button id='save'>Save Changes</button></div>";
+                    html+= "<div style='margin-top:10px;'><button id='save'>Save Changes</button> <button id='cancel'>Cancel Changes</button></div>";
                     $('#loading').html(html);
-                    $('#preview').click(preview);
+                    $('#cancel').click(cancel);
                     $('#save').click(save);
                 }
             });
