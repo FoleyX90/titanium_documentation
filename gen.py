@@ -197,6 +197,7 @@ def generate_template(source,guide,language,language_code,language_dir,languages
 	output = Template(template_body,lookup=lookup).render_unicode(summary=summary,
 												toc=toc,
 												body=xhtml,
+												source=guide['source'],
 												title=guide['name'],
 												guides=guides,
 												language=language,
@@ -259,7 +260,8 @@ def main(args):
 	for arg in args:
 		i = arg.find('=')
 		if i == -1: continue
-		k,v = arg.split('=')
+		k = arg[0:i]
+		v = arg[i+1:]
 		globals[k]=v
 
 	lang = 'en'
@@ -274,6 +276,19 @@ def main(args):
 
 	if not os.path.exists(out_dir):
 		os.makedirs(out_dir)
+
+	for entry in guides:
+		section = entry['section']
+
+		found = False
+
+		for x in sections:
+			if x['title'] == section:
+				x['books'].append(entry)
+				found = True
+
+		if not found:
+			sections.append({'title':section,'books':[entry]})		
 
 	if globals.has_key('guide'):
 		found = False
@@ -310,18 +325,6 @@ def main(args):
 		shutil.copytree(os.path.join(template_dir,'assets'),os.path.join(out_dir,'assets'))
 
 	# generate all guides and statics
-	for entry in guides:
-		section = entry['section']
-		
-		found = False
-		
-		for x in sections:
-			if x['title'] == section:
-				x['books'].append(entry)
-				found = True
-
-		if not found:
-			sections.append({'title':section,'books':[entry]})		
 		
 	for language_entry in languages:
 		language = language_entry['title']

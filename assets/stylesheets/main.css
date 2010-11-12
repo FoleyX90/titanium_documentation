@@ -461,3 +461,11 @@ div.important p, div.caution p, div.warning p, div.note p, div.info p {
 	font-size:10px;
 }
 
+#editbar {
+	margin:0;
+	padding:0;
+	float:left;
+	color:white;
+	font-size:10px;
+}
+
