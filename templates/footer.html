@@ -8,7 +8,9 @@
         today = date.today()
     %>
   <p>This guide was generated on <tt>${today.strftime('%b %d %Y %I:%M %p')}</tt>.</p>
+  % if globals.has_key('website'):
   <p>Download the full documentation as a <a href="${globals['baseurl']}/zip">HTML zipfile</a></p>
+    % endif
 </div>
 </div>
 </body>

@@ -59,7 +59,11 @@
     <div class="wrapper clearfix">
       <h1><a href="index.html" title="Return to home page">Appcelerator Documentation</a></h1>
       <p class="hide"><a href="#mainCol">Skip navigation</a>.</p>
+      % if globals.has_key('website'):
       <ul class="nav" style="margin-top:0">
+      % else:
+      <ul class="nav">
+      % endif      
         <li><a href="index.html">Home</a></li>
         <li class="index"><a href="index.html" onclick="guideMenu(); return false;" id="guidesMenu">Guides Index</a>
           <div id="guides" class="clearfix" style="display: none;">
