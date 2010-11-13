@@ -37,7 +37,7 @@
           <a href="" id="edit">Edit</a> | 
           <a href="http://github.com/api/v2/html/commits/list/appcelerator/titanium_documentation/master/source/${language_code}/${source}">History</a> |
           <a href="https://github.com/appcelerator/titanium_documentation/raw/master/source/${language_code}/${source}">Source</a> | 
-          <a href="${globals['baseurl']}/rebuild">Rebuild Site</a>
+          <a href="${globals['baseurl']}/rebuild?url=${globals['baseurl']}/${language_code}/${source.replace('.md','.html')}">Rebuild Site</a>
         </div>
       % endif
       <div id="languages">
