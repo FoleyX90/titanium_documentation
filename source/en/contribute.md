@@ -46,7 +46,7 @@ The source files for each guide is under the language folder (such as `en`) and 
 
 The documentation structure is specified in the `doc.json` file in the root directory. The file is a JSON formatted file which contains the information that the generator script uses to build the entire website.
 
-Each documentation page uses a template under the `templates` folder. The template is in a format that the [[Mako]](http://www.makotemplates.org/docs/syntax.html) templating system for Python. Generally, you will use the existing `guide.html` template already provided.
+Each documentation page uses a template under the `templates` folder. The template is in a format that the [Mako](http://www.makotemplates.org/docs/syntax.html) templating system for Python. Generally, you will use the existing `guide.html` template already provided.
 
 ## Localization of the guides
 
