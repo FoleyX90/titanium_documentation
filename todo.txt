@@ -1,7 +1,6 @@
 Working Outline for Titanium Documentation
 ==========================================
-REVISION: 1
-LAST MODIFIED: ---
+LAST MODIFIED: 10.14.10 / 10:45 Pacific
 ==========================================
 
 ===============PRIORITY KEY===============
@@ -11,10 +10,18 @@ LAST MODIFIED: ---
 	$*	 - Med (and all children)
 	%	 - Low
 	%*	 - Low (and all children)
-	!	 - Exception
+	@	 - Exception
+	!    - Important
 ==========================================
 
-Guide Skeleton
+=================TAG IT!==================
+If possible, tag item(s) you are currently
+working on, as we build out priority 
+article skeletons/scope. Contact contributor 
+if you need to collaborate on tagged item. 
+==========================================
+
+==============GUIDE SKELETON==============
 	- Guide Scope
 	- Prerequisite Capability/Guides
 	- Guide Walkthrough
@@ -23,10 +30,9 @@ Guide Skeleton
 		- Assets (Screenshots/Video)
 	- Guide Summary
 	- Related/Additional Guides/Resources
-
 ==========================================
 
-Writing Applications in JavaScript [#*]
+Writing Applications in JavaScript [#*] (Fred)
 	- JS Overview and Additional Resources
 		- General Overview of JavaScript
 		- JavaScript Foundations (External)
@@ -40,11 +46,12 @@ Writing Applications in JavaScript [#*]
 		- Understanding 'Event-Driven'
 			- To Listen or Not to Listen
 		- Managing Assets and Organizing Source with Titanium.include
-			- See more on general, abstract development best practices. [!]
+			- See more on general, abstract development best practices. [@]
+
+- Extending Titanium
 	- CommonJS
-	- Extending Titanium
-		- Example Frameworks (Local, External) [!]
-	
+	- Example Frameworks (Local, External)
+
 The hitchiker's guide to iOS
 The hitchiker's guide to Android
 	- What's in the box (tools, apps, binaries, skins, etc)
@@ -73,12 +80,14 @@ Working with Remote Data
 	- remote fetch and storage, local cache from file
 	- push notifications
 
-User Interface Design
-	- transition effects
-	- animations
-	- designer techniques
-	- advanced layout
-	- tool best practices (photoshop, etc), templates, etc
+User Interface Design (Fred)
+	- Design Considerations for Desktop and Mobile
+	- Transition Effects
+	- Animations
+	- Designer Techniques (Grids, Composition, Etc.)
+	- Advanced Layout
+	- UI Factories
+	- Tool Best Practices (photoshop, etc), templates, etc
 	
 Using Multimedia Capabilities
 	- video
@@ -118,7 +127,7 @@ Distributing your App to the App Store
 	- iOS Marketplace 
 	- Android Marketplace
 
-Designing for cross-platform 
+Designing for cross-platform
 	- impacts, decisions, when and how
 	- how to structure your app for cross-platform
 	- what's different between platforms
@@ -131,7 +140,6 @@ Building from source code
 	- how to build from source code
 	- how to report issues/ pull requests, etc.
 	- contribution (CLA link, etc)
-
 
 Android specific Documentation
 	- Android specific APIs, features, capabilities, differences
