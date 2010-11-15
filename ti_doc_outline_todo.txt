@@ -77,7 +77,7 @@ WRITING APPLICATIONS IN JAVASCRIPT [#] (Fred)
 		- Managing Assets and Organizing Source with Titanium.include
 			- See more on general, abstract development best practices. [@]
 				
-TITANIUM SUPPORT
+TITANIUM SUPPORT (Kevin)
 	- How to get help
 		- Q&A and search
 		- available training, video, and doc resources
