@@ -31,6 +31,14 @@
 			"menu":"left"
 		},
 		{
+			"section":"Start Here",
+			"name":"Getting Help",
+			"source":"help.md",
+			"template":"guide.html",
+			"description": "How to find help when you run into problems.",
+			"menu":"left"
+		},
+		{
 			"section":"Writing Applications in JavaScript",
 			"name":"Introduction to JavaScript",
 			"source":"intro_javascript.md",

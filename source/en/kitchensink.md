@@ -3,6 +3,7 @@
     
 * Download and Install the Kitchen Sink app
 * Be familiar with how Kitchen Sink is structured
+
 </summary>
 
 # Background
@@ -46,4 +47,14 @@ Kitchen Sink is structured with the following main tabs:
 * **Phone** - the Phone tab contains various device specific examples.
 * **Platform** - the Platform tab contains various platform specific examples.
 * **Mashups** - the Mashups tab contains various examples with working with remote data.
+
+# Troubleshooting
+
+Importing and running the Kitchen Sink should work for you straight away, but if you run into problems you can create and run a 
+brand new Titanium Mobile project and copy the demo code over into it.
+
+First, create a new Titanium Mobile project and run it in the emulators to satisfy yourself that it works.  Now,
+replace everything but `[project root]/build` in your newly created application with the contents from the Kitchen Sink demo 
+(Resources directory, custom Info.plist, tiapp.xml - basically everything from the old Kitchen Sink except for the 
+`[project root]/build` directory).  Now when you re-run your newly created project, you will have all the demos up and running.
 
