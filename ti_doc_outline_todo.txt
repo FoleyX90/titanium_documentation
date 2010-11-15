@@ -141,3 +141,4 @@ USER INTERFACE DESIGN (Fred)
 	- Advanced Layout
 	- UI Factories
 	- Tool Best Practices (photoshop, etc), templates, etc
+	- JSS (Kevin)
