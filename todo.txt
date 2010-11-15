@@ -71,8 +71,8 @@ How to get help
 	- Pro support
 
 Working with Local Data
-	- storage in SQLite
-	- storage in Properties
+	- storage in SQLite [#] (hal)
+	- storage in Properties [#] (hal)
 	- filesystem
 	
 Working with Remote Data
