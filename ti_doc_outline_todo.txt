@@ -1,4 +1,4 @@
-Working Outline for Titanium Documentation
+Working TODO Outline for Titanium Docs
 ==========================================
 LAST MODIFIED: 11.14.10 / 6:54 PM Pacific
 ==========================================
