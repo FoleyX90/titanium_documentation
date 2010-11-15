@@ -301,7 +301,7 @@
 			"template":"guide.html",
 			"description":"Design techniques for building engaging, interactive experiences.",
 			"menu":"left"
-		},
+		}
 	],
 	"statics":
 	[
