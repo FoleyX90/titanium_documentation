@@ -292,7 +292,7 @@
 			"source":"design_101.md",
 			"template":"guide.html",
 			"description":"Design basics, including typography and composition.",
-			"menu":"left"
+			"menu":"right"
 		},
 		{
 			"section":"User Interface Design",
@@ -300,7 +300,7 @@
 			"source":"design_desktop_and_mobile.md",
 			"template":"guide.html",
 			"description":"Design techniques for building engaging, interactive experiences.",
-			"menu":"left"
+			"menu":"right"
 		}
 	],
 	"statics":
