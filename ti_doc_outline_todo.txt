@@ -115,7 +115,8 @@ PLATFORM SPECIFIC
 		(we don't need to document the full process, just provide pointers and any tips, differences, etc)
 		- iOS Marketplace 
 		- Android Marketplace
-
+	- iAds tutorial
+	
 TITANIUM TUTORIALS
 	- Building from source code
 		(some of this is covered in contribute too)
