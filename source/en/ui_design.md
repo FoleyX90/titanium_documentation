@@ -1,9 +1,10 @@
 <summary>
-    This guide covers how User Interfaces are designed and developed using Ti. After reading it, you should be familiar with the following concepts:
+This guide covers how User Interfaces are designed and developed using Ti. After reading it, you should be familiar with the following concepts:
     
 * How to layout your UI in Titanium
 * Advanced application layout techniques
 * Platform specific UI capabilities
+
 </summary>
 
 <note>

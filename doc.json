@@ -258,7 +258,16 @@
 			"name":"Blackberry specific documentation",
 			"source":"blackberry.md",
 			"template":"guide.html",
-			"description": "Understanding Blackberry specific APIs, usages and differences.",
+			"description": "Understanding Blackberry specific APIs, usages and differences",
+			"menu":"right",
+			"inprogress":true
+		},
+		{
+			"section":"Platform Specific",
+			"name":"Blackberry Preview Getting Started Guide",
+			"source":"blackberry_preview.md",
+			"template":"guide.html",
+			"description": "Get started with the BlackBerry preview",
 			"menu":"right",
 			"inprogress":true
 		},
