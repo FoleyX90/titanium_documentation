@@ -48,10 +48,10 @@
 		},
 		{
 			"section":"Writing Applications in JavaScript",
-			"name":"Titanium JS Built-In Functionality",
-			"source":"ti_javascript_builtin.md",
+			"name":"The Titanium JavaScript Environment",
+			"source":"javascript_environment.md",
 			"template":"guide.html",
-			"description":"Titanium JavaScript Functions. (Timers, etc.)",
+			"description":"An explanation of the JavaScript environment your app runs in, including contexts, including external files and built-in functions",
 			"menu":"left"
 		},
 		{
