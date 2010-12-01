@@ -14,7 +14,7 @@ Thanks for checking out Titanium - we hope you'll have your first native applica
 before dinner.  Before we get into installing and running Titanium, let's (very) briefly go over what the Titanium platform is, 
 how it works at a shallow level, and the kinds of capabilities you can expect to find.
 
-![platform](http://www.appcelerator.com/wp-content/uploads/2009/12/PROD_arch11.png)
+![platform](http://img.skitch.com/20101130-mi6fy1npry45cug9wfx244r3w8.png)
 
 ## Titanium Desktop SDK
 
@@ -165,7 +165,7 @@ your application.
 
 Titanium Developer does not (yet) provide a text editor, so it is expected that you will use the text editor or IDE of your
 choice to actually write application code.  The Resources directory will already contain a simple application that you can run 
-from Titanium Developer right away.
+from Titanium Developer right away.  [Check out the application project structure guide](app_structure.html) for more details.
 
 ## Running your application
 
@@ -184,11 +184,44 @@ A default desktop application should look like this:
 
 # What's Next?
 
-Now that you have a functional Titanium environment, there are numerous guides available here to further your education.  Here are
-some recommendations for where to proceed next.
+Now that you have a functional Titanium environment, there are numerous guides available here to further your education.  The 
+following are the recommended next steps for mobile developers:
 
-* [Getting Started with the Kitchen Sink](/kitchensink)
-* [Understanding application architecture](/architecture)
-* [Understanding UI design](/ui_design)
-* [How to structure your Titanium Mobile application](/factories)
+## The Kitchen Sink
 
+There are numerous sample applications for you to look at, most notably the [Kitchen Sink](kitchensink.html) demo application.  The
+Kitchen Sink works well as a companion during development, so you can pull out code samples and get an idea of what is possible in a
+Titanium application.  [Check out the Kitchen Sink](kitchensink.html) right away if you haven't already, and keep it handy for all
+your "how do I..." type questions.
+
+## Titanium Fundamentals
+
+Before you can progress too far into a Titanium application, you will probably want to understand the 
+[contents and structure of a Titanium Mobile application](app_structure.html).  This will help you to understand all the moving
+parts of your mobile app.  To get a basic grasp of how Titanium works, check out [this architecture guide](architecture.html)
+for more on Titanium's pre-compile, build, and runtime behavior.
+
+Once you have an idea of "what's in the box" for a Titanium application, you will likely want to learn about how to program your
+application's [user interface](ui_design.html).  Most of the JavaScript code you write will have to do with the construction and
+behavior of UI elements, so it makes sense to wrap your brain around these concepts right away.
+
+## Learning about the Titanium JavaScript environment
+
+Having a strong grasp of the JavaScript programming language and the Titanium JavaScript environment is essential to becoming a
+productive Titanium developer.  If you're brand new to JavaScript, be sure to check out our
+[Introduction to JavaScript](intro_javascript.html) for a primer on one of the coolest and most pervasive programming languages
+in the wild today.  JavaScript is showing up everywhere - on the server, on the desktop, and even on mobile devices! ;)
+
+Even if you're a seasoned JavaScript pro, you'll probably want to read up on [the Titanium JavaScript Environment](javascript_environment.html),
+where you will learn about the built-in functions and 'execution contexts' that define your application's runtime environment.
+Essential reading for any Titanium developer.
+
+For those looking to understand how best to structure their JavaScript code (specifically for a Titanium Mobile application),
+you might want to [read up on the JavaScript best practices](javascript_best_practices.html) we've collected.  Hopefully they will
+help you to create a more maintainable and elegant JavaScript application.
+
+## Getting productive with Titanium
+
+The rest of the guides found here are more oriented toward specific tasks or techniques for building Titanium applications,
+which you can explore at your leisure.  We hope you find these guides helpful - or better yet, [[contribute]] to make them even
+better!

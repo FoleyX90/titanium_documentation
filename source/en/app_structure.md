@@ -21,6 +21,14 @@ of what you can expect to find in a Titanium Mobile project:
 * **Resources** - this folder is very important and contains all your application files such as your JavaScript, HTML, images, etc. This is the main folder you will use to include resources for your application. All files included in this folder are packaged and available to your application.
 * **i18n** - this folder (optional) contains the localization resources for each language supported. This folder must be created as it's not created by default.
 
+## app.js
+
+In the Resources folder, `app.js` serves as the entry point for your application, and your application's
+[root execution context](javascript_environment.html).  You could, in theory, implement your entire application in this file,
+but more likely you will break up your application into multiple files and
+[include them in the current context](javascript_environment.html#including_external_javascript_files) - in that case, app.js
+serves as more of a 'bootstrap' file.  In any case, this is where the coding starts for your mobile application.
+
 ## Platform-specific Resources
 
 There are a few specific folders under `Resources` that are special based on the final application package. Underneath the `Resources` 
