@@ -236,6 +236,14 @@
 			"menu":"right"
 		},
 		{
+			"section":"Tutorials",
+			"name":"Making a combo box",
+			"source":"making_a_combo_box.md",
+			"template":"guide.html",
+			"description": "A listing of Titanium tutorials",
+			"menu":"right"
+		},
+		{
 			"section":"FAQ",
 			"name":"Frequently Asked Questions",
 			"source":"faq.md",
