@@ -32,6 +32,14 @@
 		},
 		{
 			"section":"Start Here",
+			"name":"Troubleshooting Your Installation",
+			"source":"troubleshooting_your_installation.md",
+			"template":"guide.html",
+			"description": "Troubleshooting your installation",
+			"menu":"left"
+		},
+		{
+			"section":"Start Here",
 			"name":"Getting Help",
 			"source":"help.md",
 			"template":"guide.html",
