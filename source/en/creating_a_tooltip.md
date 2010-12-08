@@ -68,7 +68,8 @@ Now when we open the **index_win** the tooltip will be there and the user will h
 #More on user experience
 
 If the tooltip stays there permanently will obstruct the below views or at least will become annoying so we need to find a way to hide it. 
-We can do this when the user clicks the tipButton by using a smooth fadeout.
+
+We can do this when the user clicks the **tipButton** by using a smooth fadeout.
 
 The code below creates an animation that operates on the **opacity** property of the **tipView** (so the whole tooltip) and that is triggered on the click event of the **tipButton**.
 
