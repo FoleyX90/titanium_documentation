@@ -353,7 +353,7 @@
 			"description":"Appcelerator Documentation Guides"
 		},
 		{
-			"name":"Contribute to Appcelerator",
+			"name":"Contribute to Titanium",
 			"source":"contribute.md",
 			"template":"guide.html",
 			"description":"Help make the Appcelerator Platform possible by contributing."
