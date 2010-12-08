@@ -18,10 +18,10 @@ your code runs in.
 # The JavaScript Engine
 
 Titanium runs your application's JavaScript using one of two JavaScript interpreters - [JavaScriptCore](http://webkit.org/projects/javascript/) 
-on iOS (the interpreter used by Webkit) and [Mozilla Rhino](http://www.mozilla.org/rhino/) on Android and BlackBerry.  These engines
-provide a standard JavaScript interpreter with most of the functionality you would be used to in the web browser, with a few notable
-exceptions (mainly the DOM APIs and other browser-specific trappings).  However, Titanium has supplemented the global namespace with
-some global functions JavaScript developers would be accustomed to.
+on iOS (the interpreter used by Webkit), [Mozilla Rhino](http://www.mozilla.org/rhino/) on Android, and the Browser Field object on BlackBerry.
+These engines provide a standard JavaScript interpreter with most of the functionality you would be used to in the web browser, with a few
+notable exceptions (mainly the DOM APIs and other browser-specific trappings).  However, Titanium has supplemented the global namespace 
+with some global functions JavaScript developers would be accustomed to.
 
 ## Built-In Functions
 

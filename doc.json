@@ -228,14 +228,6 @@
 			"menu":"right"
 		},
 		{
-			"section":"Designing for cross-platform",
-			"name":" HTML5 vs native UI",
-			"source":"html5_vs_native_ui.md",
-			"template":"guide.html",
-			"description": "The difference between HTML5 and native UI elements in the Titanium case",
-			"menu":"left"
-		},
-		{
 			"section":"Tutorials",
 			"name":"Titanium tutorials",
 			"source":"tutorials.md",
@@ -341,6 +333,14 @@
 			"source":"design_desktop_and_mobile.md",
 			"template":"guide.html",
 			"description":"Design techniques for building engaging, interactive experiences.",
+			"menu":"right"
+		},
+		{
+			"section":"User Interface Design",
+			"name":" HTML5 vs native UI",
+			"source":"html5_vs_native_ui.md",
+			"template":"guide.html",
+			"description": "The difference between HTML5 and native UI elements in the Titanium case",
 			"menu":"right"
 		}
 	],
