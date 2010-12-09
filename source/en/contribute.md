@@ -183,9 +183,9 @@ Of the compiled files, the following are of particular interest:
 </tr>
 </table>
 
-To contribute to the Android SDK, you will need a knowledge of Java. See the [Module Developer Guide](http://developer.appcelerator.com/doc/mobile/android/module_sdk) for Android for more information.
+To contribute to the Android SDK, you will need a knowledge of Java. See the [Module Developer Guide](module_android.html) for Android for more information.
 
-To contribute to the iOS SDK, you will need to know Objective-C. Refer to the [Module Developer Guide](http://developer.appcelerator.com/doc/mobile/iphone/module_sdk) for iOS.
+To contribute to the iOS SDK, you will need to know Objective-C. Refer to the [Module Developer Guide](module_ios.html) for iOS.
 
 ## Generating the Documentation
 
@@ -245,7 +245,7 @@ Git can be a little daunting if you've never used it before, but most people soo
 * the `git help` command and the [Git online manual](http://www.kernel.org/pub/software/scm/git/docs/)
 * Github [Git Reference](http://gitref.org) (manual)
 * the Freenode IRC server's #git channel
-* and [many other resources](http://www.google.com/search?hl=en&q=git+version+control)
+* and [many others](http://www.google.com/search?hl=en&q=git+version+control)
 
 ## Git Prerequisites
 
@@ -409,25 +409,9 @@ Then, add a message using the form on the following page, and click the "Send Pu
 
 <info>
 A pull request is a request for the HEAD of the branch. Any commits that you push to your branch, up until the moment the merge is actioned, will be merged into upstream/master.
-
-After a pull request has been sent, you should avoid pushing changes unless you agree with upstream that changes need to be made before it can be merged. In this case, you will need to send another pull request to advise that your changes are complete.
 </info>
 
 # Our Thanks
 
 Last, but by no means least, thank you for being interested-enough in Titanium to have read this far and for any subsequent contributions you decide to make.
-
-
-
-
-
-* * *
-
-** TODO:**
-
-* improve summary and bullet points?
-* improve the thanks section?
-* add more git prerequisites?
-* add more git tips?
-* liaise with Kevin Whinnery
 
