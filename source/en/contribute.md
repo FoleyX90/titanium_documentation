@@ -358,11 +358,11 @@ git rebase master
 <info>You can update your local branch at any time with the latest commits to Appcelerator's public repository, using this method. However, it's most important to do so just before you push your finished work, to reduce the risk of conflicts when it is merged.</info>
 
 <warning>
-When you rebase a branch, it can change the SHA-1 hash of any commits since it branched off from, or was merged with, master. If these commits have been made public and someone has subsequently based their work on them, rebasing will cause problems because these old commits will appear to be new commits and will have to be merged in despite already existing.
+When you rebase a branch, it can change the SHA-1 hash of any of your commits since it branched off from master. If these commits have been made public and someone has subsequently based their work on them, rebasing will cause problems because these old commits will appear to be new commits and will have to be merged in despite already existing.
 
-As no-one will be using your branch to work from, this should not be an issue. However, it's important to remember to **never rebase a branch that has already been merged into master**. Instead, bring your master up-to-date and create a brand new branch from it.
+As no-one will be using your branch to work from, this should not be an issue. However, the easiest rule to follow is **never rebase a branch that has already been made public/pushed**.
 
-See Pro Git's [The Perils of Rebasing](http://progit.org/book/ch3-6.html#the_perils_of_rebasing) for more information.
+Hence, if your branch has been pushed, skip the `git rebase master` step.
 </warning>
 
 ### 5. Squash your commits
@@ -380,7 +380,7 @@ git commit
 </code>
 
 <warning>
-Like rebase, this also rewrites the history, so the caveat mentioned above also applies.
+Like rebase, this also rewrites the history, so the caveat mentioned above also applies. Hence, **skip this step if the branch has already been pushed**.
 </warning>
 
 ### 6. Push your local branch to your Github repository
