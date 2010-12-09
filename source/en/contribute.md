@@ -80,6 +80,8 @@ Even if no answers provided an exact solution, don't be mean! Under the answer t
 
 Lastly, voting up or down helps improve the accuracy of the Q&A search tool, because it allows good answers to be prioritized. This benefits everyone, including you, when searching for solutions.
 
+## The Question Checklist
+
 Here's a convenient checklist that you may use for reference when creating new questions.
 
 ![question checklist](../assets/images/guides/contribute/question-and-answer-checklist-v1.png)
