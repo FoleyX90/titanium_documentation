@@ -273,6 +273,9 @@ In this example, the view is initially set to `0` - effectively making it fully 
     });
 </code>
 
+# Animations in Action
+
+Here is a walk-thru of a working [example animation application](animations_in_action.html) with source provided.
 
 # Advanced Layout 
 
