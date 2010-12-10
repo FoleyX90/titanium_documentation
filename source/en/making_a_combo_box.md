@@ -30,8 +30,8 @@ We will use a system button provided by Apple (**Titanium.UI.iPhone.SystemButton
 var tr = Titanium.UI.create2DMatrix();
 tr = tr.rotate(90);
 var drop_button =  Titanium.UI.createButton({
-		style:Titanium.UI.iPhone.SystemButton.DISCLOSURE,
-		transform:tr
+	style:Titanium.UI.iPhone.SystemButton.DISCLOSURE,
+	transform:tr
 });
 ~~~ 
 
@@ -88,7 +88,7 @@ var toolbar =  Titanium.UI.createToolbar({
 });
  
 var picker = Titanium.UI.createPicker({
-		top:43
+	top:43
 });
 picker.selectionIndicator=true;
  
@@ -118,7 +118,7 @@ The combo-box interface looks like this:
 
 We also need to create 2 animations: *slide_in* and *slide_out*. We will animate the bottom property of the picker_view. We will need to start with the picker_view off the screen, so we will build it with:
 ~~~
- bottom:-251
+bottom:-251
 ~~~
 instead of 0 as it was initially.
 ~~~
