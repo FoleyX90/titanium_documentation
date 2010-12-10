@@ -6,6 +6,7 @@
 # Appcelerator Tutorials
 
 * [How to create an animatable iPad menu](http://developer.appcelerator.com/blog/2010/06/how-to-create-an-ipad-menu-with-animation.html)
+* [Animations in Action](animations_in_action.html)
 * [Background Image Effects tutorial](http://developer.appcelerator.com/blog/2010/06/background-animation-visual-effect-tutorial.html)
 * [How to create an iPhone navigation group](http://developer.appcelerator.com/blog/2010/06/how-to-create-an-iphone-navigation-group.html)
 * [How to persist complex Javascript objects](http://developer.appcelerator.com/blog/2010/06/how-to-persist-complex-javascript-objects.html)
