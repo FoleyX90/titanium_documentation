@@ -14,9 +14,9 @@ There is typically a very narrow definition that springs to mind when people tal
 
 Titanium has been brought to this point through the efforts of people with a very broad range of skills and experience, from those who are totally non-technical, to the newbie, to the web developer through to those who have already developed their own native applications, and many more besides. There are always things to be done that, however small, can collectively make Titanium evolve more rapidly.
 
-The approach of someone wishing to contribute to Titanium will ideally be one that begins at the community. By engaging through exchanging questions and answers, proposing ideas, noticing bugs, publishing workarounds and similar activities, you get a much better idea of what Titanium is all about, how it functions and how it can be improved. In addition to helping you to become a more efficient developer, it is crucial to the core team to have this type of feedback. Your input helps set the direction for the project, ensuring it will be as useful as possible to the most people.
+The approach of someone wishing to contribute to Titanium will ideally be one that begins at the community. By engaging through exchanging questions and answers, proposing ideas, noticing bugs, publishing workarounds and similar activities, you get a much better idea of what Titanium is all about, including how it functions and how it can be improved. In addition to helping you to become a more proficient developer, your feedback is crucial to the core team as it helps set the direction of the project. This ensures Titanium will be as useful as possible to the most people.
 
-This document describe the ways that you can get involved, some of which you may already be doing as a matter of routine. If you haven't considered them as *true* contribution before, then you may have overlooked their value. If these activities are done with the community in mind, and following a few simple guidelines, their results will be a tremendous benefit everyone.
+This document describe the ways that you can get involved, some of which you may already be doing as a matter of routine. If you haven't considered them as *true* contribution before, then you may have overlooked their value. If these activities are done with the community in mind, and following a few simple guidelines, their results will be a tremendous benefit to everyone.
 
 ## How to Contribute to Titanium:
 
@@ -26,12 +26,11 @@ This document describe the ways that you can get involved, some of which you may
 	 * help others
 * find and report bugs, using the outlines in the section below
     * watch bug tickets that are important to you
-* fix bugs and submit patches, using the guide in the section below
+* fix bugs and submit patches
 * write modules and share them with the community
 * correct and translate documentation
 
 These are explained in more detail in the following sections.
-
 
 # Participating in the Q&amp;A
 The Questions and Answers forum, or [Q&A](http://developer.appcelerator.com/questions/created) as it's known, has the potential of being an unbeatable place to get help, with every conceivable issue being recorded and resolved. We use it ourselves, to discover the main concerns troubling the community, and also to take part in the discussion. Crucially, its made possible by having such capable and generous members willing to give their time to assist others.
@@ -50,7 +49,7 @@ When people help out in the Q&A, it's often a spontaneous gesture. They are like
 
 <info>Tip: Grab attention, by creating a question title that directly relates to your core issue, in the form of a question that can be easily answered.</info>
 
-In spite of their unwavering good nature, Helpers in the Q&A like an easy life just as much as anybody else. They won't always have the time to read through long accounts of the frustrations people feel they have endured while attempting to get something to work. If they can't quickly understand what the issue or question is, they may simply move on to the next one. Hence:
+In spite of their unwavering good nature, Helpers in the Q&A like an easy life just as much as anybody else. They won't always have the time to read through long accounts of the frustrations you feel you have endured while attempting to get something to work. If they can't quickly understand what the issue or question is, they may simply move on to the next one. Hence:
 
 <info>Tip: Stay on topic - explain your problem concisely, but in full.</info>
 
@@ -64,7 +63,7 @@ If you include some code that demonstrates your issue, you not only increase you
 
 If your problem produces an error or exception, there is no need to attempt to explain it. By including the verbatim message in your question, you give Helpers a much better insight into the issue.
 
-<info>Tip: always include any error or exception messages by copying and pasting rather than explaining it. If it is long, [gist.github](https://gist.github.com) or [pastebin](http://pastebin.com), but check first that they don't expire.</info>
+<info>Tip: always include any error or exception messages by copying and pasting rather than explaining it. If it is long, use [gist.github](https://gist.github.com) or [pastebin](http://pastebin.com), but check first that they don't expire.</info>
 
 <info>Tip: for emulator issues, including application install failures, include the emulator trace output.</info>
 
@@ -72,11 +71,11 @@ Did you know that people wishing to help can have questions delivered to them vi
 
 <info>Tip: always set some relevant question tags. At the very least, they should describe your mobile platform and Titanium SDK version.</info>
 
-Using the "Mark as the best answer" option to close your question allows you to show your appreciation for a Helper's time and effort with bonus forum points. They will no doubt recall the good turn when they see your name against your next question. Also, doing so helps everyone to find reliable answers later on, as the questions with "best" answers are promoted in the search results.
+Using the "Mark as the best answer" option to close your question enables you to easily show your appreciation with bonus forum points for a Helper's time and effort. They will no doubt recall your good turn when they see your name against your next question. Also, doing so helps everyone to find reliable answers later on, as the questions with "best" answers are easy to spot in the search results.
 
 Even if no answers provided an exact solution, don't be mean! Under the answer that inspired you most to figure it out for yourself, add a comment explaining the actual solution and then mark it as best.
 
-<info>Tip: for each of your questions, add a comment to the closest answer, giving the actual solution, and then mark it as best. Consider using the "My Q&A" link to review your old questions, and see if any can also be closed in this way.</info>
+<info>Tip: for each of your questions, add a comment to the closest answer, giving the actual solution, and then mark it as best. Consider using the "My Q&A" link to review your old questions, and see if any more can be closed in this way.</info>
 
 Lastly, voting up or down helps improve the accuracy of the Q&A search tool, because it allows good answers to be prioritized. This benefits everyone, including you, when searching for solutions.
 
@@ -88,13 +87,13 @@ Here's a convenient checklist that you may use for reference when creating new q
 
 # Submitting Bugs
 
-We use [Lighthouse](https://appcelerator.lighthouseapp.com/projects/32238-titanium-mobile/tickets?q=state%3Aopen) as our bug ticketing system. It has a [powerful search syntax](http://help.lighthouseapp.com/faqs/getting-started/how-do-i-search-for-tickets) that you should get into the habit of using when you see any unexpected behaviour from Titanium. This will save you a lot of time debugging any issues with the core code, that are impossible for you to fix, when you could be looking for a workaround instead.
+We use [Lighthouse](https://appcelerator.lighthouseapp.com/projects/32238-titanium-mobile/tickets?q=state%3Aopen) as our bug ticketing system. It has a [powerful search syntax](http://help.lighthouseapp.com/faqs/getting-started/how-do-i-search-for-tickets) that you should get into the habit of using when you see any unexpected behaviour from Titanium. This will save you a lot of time debugging issues with the core code that are impossible for you to fix, when you could be looking for a workaround instead.
 
 If you find a ticket that describes a bug that is important to your project, use the "watch ticket" facility to be kept up-to-date by email of any changes to its status. This is also useful because we can use the total number of watchers to help us prioritize our work.
 
 Having the whole community's eyes on the code helps make Titanium more stable and featureful much more quickly. If you find a bug, and can prove *with certainty* that it exists, then we will be glad to hear about it.
 
-However, creating tickets in Lighthouse should not be taken lightly, as incorrect submissions will create more work for our development team, taking valuable time away from coding. Also, resist the temptation to start discussions within existing tickets, as this will also slow the development process.
+However, creating tickets in Lighthouse should not be taken lightly, as incorrect submissions will create more work for our development team, taking up valuable coding time. Also, resist the temptation to start discussions within existing tickets, as this will also slow the development process.
 
 ## The Bug-Reporting Lifecycle
 
@@ -102,24 +101,24 @@ However, creating tickets in Lighthouse should not be taken lightly, as incorrec
 
 The steps are as follows:
 
-* find possible bug
-* search Lighthouse thoroughly for similar issues
-* create a use-case, following the guidance in [Creating Good Use-cases](#creating_good_use-cases)
-* search the [Q&A](http://developer.appcelerator.com/questions/created) for the issue and its solution. If none exists, post a question to garner community opinion and request a workaround, following the guidance in [Q&A - Jumping the queue](#q&a_-_jumping_the_queue). Include your use-case
-* once certain of a bug:
+1. find possible bug
+2. search Lighthouse thoroughly for similar issues
+3. create a use-case, following the guidance in [Creating Good Use-cases](#creating_good_use-cases)
+4. search the [Q&A](http://developer.appcelerator.com/questions/created) for the issue and its solution. If none exists, post a question to garner community opinion and request a workaround, following the guidance in [Q&A - Jumping the queue](#q&a_-_jumping_the_queue). Include your use-case
+5. once certain of a bug:
     * create a Lighthouse ticket (one ticket per bug)
     * keep it as concise and as factual as possible
     * include your use-case
     * watch ticket, to receive updates about its status
-* help others by posting the ticket's URL to your Q&A question as a comment under someone else's answer and mark it as "best"
+6. help others by posting the ticket's URL to your Q&A question as a comment under someone else's answer and mark it as "best"
 
 ## Creating Good Use-cases
 
-A "use-case" or "use-case code" is a working script that demonstrates a specific bug. The best use-case is one that contains the least possible code required.
+A "use-case" or "use-case code" is a working script that demonstrates a specific bug. The *best* use-case is one that contains the least possible code while still demonstrating the bug.
 
 Being in the habit of writing use-cases can be really helpful when you are troubleshooting an issue, because it can differentiate user coding errors from actual bugs.
 
-For example, you observe that the `layout:'vertical'` property of Titanium's window object does not work as expected for the window's child views. In the process of producing a use-case, you remove every property from both the window and its sub-views except those that are absolutely necessary. With less code, it is often easier to see a mistake and, in this case, you realize that the children's top property had been inadvertently set, which caused the views to be positioned absolutely rather than relatively.
+For example, you observe that the `layout:'vertical'` property of Titanium's window object does not work as expected for the window's child views. In the process of producing a use-case, you remove every property from both the window and its sub-views except those that are absolutely necessary. With less code, it is often easier to notice a mistake and, in this case, you realize that the children's top property had been inadvertently set, which caused the views to be positioned absolutely rather than relatively.
 
 Syntax errors can be the cause of unusual behaviour from your code. Therefore, there is no point escalating an issue to the community forum or the bug ticketing system until you have ensured it validates successfully.   See our [Third-party tools](tool_thirdparty.html) page for recommendations of good validators, or use [JSLint](http://www.jslint.com) online.
 
@@ -181,7 +180,7 @@ Of the compiled files, the following are of particular interest:
 </tr>
 <tr>
 	<td>`/dist/android/javadoc/`</td>
-	<td>Titanium Android Java API in HTML (note: not the Ti javascript API!)</td>
+	<td>Titanium Android Java API in HTML (note: not the Titanium javascript API!)</td>
 </tr>
 </table>
 
@@ -272,7 +271,7 @@ Download a hi-res version [here](../assets/images/guides/contribute/contribute-w
 
 ### Committing code with Git in 7 easy stages (detailed)
 
-<note>in this example, the Github account with the name "appcel" is being used for demonstration purposes.</note>
+<note>In the examples in this section, a Github account with the name "appcel" is being used for demonstration purposes.</note>
 
 ### 1. Fork the public repository
 Click on one of [Appcelerator's Public Repositories](https://github.com/appcelerator) on Github, such as [titanium_mobile](https://github.com/appcelerator/titanium_mobile), and press the "fork" button near the top right-hand corner of the page:
@@ -283,7 +282,7 @@ Once the process is complete, go to your Github Dashboard and click on your new 
 
 ![fork titanium project on github screenshot](../assets/images/guides/contribute/github-fork-dashboard.png)
 
-<note>Although your repository is identical to the original at the moment that the fork occurs, from that point onwards each exists totally independently of the other. Thus, your repository will not receive any commits made to the original, unless you explicitly, manually push them to it. This procedure is explained in stage 4.</note>
+<note>Although your repository is identical to the original at the moment that the fork occurs, from that point onwards each of them exists totally independently of the other. Thus, your repository will not receive any commits made to the original, unless you explicitly, manually push them to it. Having said this, you will leave the existing branches in their current state, and instead use this repository to publish your new, up-to-date, development branches.</note>
 
 ### 2. Clone your repository, and configure git remotes
 
@@ -291,7 +290,7 @@ In Github, click on the **SSH** button, to return a secure URL, and copy the URL
 
 ![github ssh url screenshot](../assets/images/guides/contribute/github-ssh-url.png)
 
-<info>Using the SSH protocol with Git allows your system to authenticate with the remote repository. This is only necessary if you intend to push to them.</info>
+<info>Using the SSH protocol with Git allows your system to authenticate with the remote repository. This is only necessary if you intend to push to it.</info>
 
 At your local machine's command line, change to the directory where you wish to store the repository, and use the SSH URL with `git clone`, as follows:
 
@@ -305,7 +304,7 @@ Now return to Appcelerator's public repository, [titanium_mobile](https://github
 
 <info>As the Git protocol is the most efficient for transferring data over a network, the Git URL is preferred when you do not need to authenticate with a repository. As you won't ever push code directly to Appcelerator's repositories, you don't need an SSH URL to access them.</info>
 
-Add the URL as a remote named `upstream`:
+Add the URL as a "remote" named `upstream`:
 <code>
 git remote add upstream git://github.com/appcelerator/titanium_mobile.git
 </code>
@@ -317,7 +316,7 @@ git remote -v
 
 Which should show you:
 <pre>
-origin	   git@github.com:<your-account>/titanium_mobile.git
+origin	   git@github.com:&lt;your-account&gt;/titanium_mobile.git
 upstream   git://github.com/appcelerator/titanium_mobile.git
 </pre>
 
@@ -350,17 +349,17 @@ Then bring your local branch up-to-date with changes in the public repository:
 
 In other words, run the following code:
 <code>
-git commit // follow the usual procedure of git add etc]
+git commit // [follow the usual procedure of git add etc]
 git checkout master
 git pull upstream master
 git checkout ticketNumber-description
 git rebase master
 </code>
 
-<info>You can update your local branch at any time with the latest commits to Appcelerator's public repository, using this method. However, it's most important to do so just before you push your finished work, to reduce the risk of conflicts when it is merged.</info>
+<info>You can update your local branch at any time with the latest commits to Appcelerator's public repository using this method. However, it's most important to do so just before you push your finished work, to reduce the risk of conflicts when it is merged.</info>
 
 <warning>
-When you rebase a branch, it can change the SHA-1 hash of any of your commits since it branched off from master. If these commits have been made public and someone has subsequently based their work on them, rebasing will cause problems because these old commits will appear to be new commits and will have to be merged in despite already existing.
+When you rebase a branch, it can change the SHA-1 hash of any of your commits since it branched off from master. If these commits have been made public and someone has subsequently based their work on them, rebasing will cause problems because these old commits will appear to be new commits and will have to be merged despite already existing.
 
 As no-one will be using your branch to work from, this should not be an issue. However, the easiest rule to follow is **never rebase a branch that has already been made public/pushed**.
 
@@ -415,5 +414,5 @@ A pull request is a request for the HEAD of the branch. Any commits that you pus
 
 # Our Thanks
 
-Last, but by no means least, thank you for being interested-enough in Titanium to have read this far and for any subsequent contributions you decide to make.
+Last, but by no means least, thank you for being interested-enough in Titanium to have read this far and for any subsequent contributions you make.
 
